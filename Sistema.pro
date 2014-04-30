@@ -13,8 +13,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        mainwindow.cpp
+        mainwindow.cpp \
+    numbersselectorform.cpp \
+    columngeneratorthread.cpp
 
-HEADERS  += mainwindow.h
+HEADERS  += mainwindow.h \
+    numbersselectorform.h \
+    Defs.h \
+    columngeneratorthread.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    numbersselectorform.ui

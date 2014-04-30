@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "columngeneratorthread.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -17,6 +19,8 @@ public:
 
 private:
     Ui::MainWindow *ui;
+
+    ColumnGeneratorThread   *pEngine;
 };
 
 #endif // MAINWINDOW_H
