@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 
+#include "columncachethread.h"
 #include "columngeneratorthread.h"
 
 namespace Ui {
@@ -20,6 +21,7 @@ public:
 private:
     Ui::MainWindow *ui;
 
+    ColumnCacheThread       *pCache;
     ColumnGeneratorThread   *pEngine;
 };
 

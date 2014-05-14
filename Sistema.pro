@@ -15,12 +15,16 @@ TEMPLATE = app
 SOURCES += main.cpp\
         mainwindow.cpp \
     numbersselectorform.cpp \
-    columngeneratorthread.cpp
+    columngeneratorthread.cpp \
+    column.cpp \
+    columncachethread.cpp
 
 HEADERS  += mainwindow.h \
     numbersselectorform.h \
     Defs.h \
-    columngeneratorthread.h
+    columngeneratorthread.h \
+    column.h \
+    columncachethread.h
 
 FORMS    += mainwindow.ui \
     numbersselectorform.ui
